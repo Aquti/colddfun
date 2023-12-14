@@ -1,6 +1,6 @@
 (function(){
 
-
+alert('load')
 void new function Anticheat() {
    Object.setPrototypeOf(Object.getPrototypeOf(this), null);
    if (!(delete this.__proto__?.__proto__)) Block("Anticheat prototype modified");
